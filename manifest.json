@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Screen Flipper",
+  "version": "1.0",
+  "description": "Flips the current webpage upside down",
+  "icons": {
+    "16": "icons/icons8-circle-32.png",
+    "48": "icons/icons8-circle-64.png",
+    "128": "icons/icons8-circle-96.png"
+  },
+  "action": {
+    "default_icon": "icons/icon16.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
