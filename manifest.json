@@ -9,7 +9,7 @@
     "128": "icons/icons8-circle-96.png"
   },
   "action": {
-    "default_icon": "icons/icon16.png",
+    "default_icon": "icons/icons8-circle-32.png",
     "default_popup": "popup.html"
   },
   "permissions": ["activeTab", "scripting"],
